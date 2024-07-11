@@ -1,0 +1,102 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e3eb;
+}
+
+.calculator_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.calculator_text {
+  display: flex;
+  padding: 10px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: #FF6700;
+  margin-bottom: 15px;
+}
+
+
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  pointer-events: none;
+}
+
+.display_min {
+  opacity: 0.4;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.temp-result {
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  overflow: hidden;
+  opacity: 0.3;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.buttons button:active {
+  transform: scale(0.99);
+}
+
+.mini_operator {
+  background-color: #63636380;
+}
+
+.operator {
+  background-color: #ff5101b7;
+}
+
+.btn-0 {
+  grid-column: 1/3;
+}

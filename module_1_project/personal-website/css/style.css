@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    padding: 2px;
+    font-size: 16px;
+    background-color: black;
+    color: rgb(243, 242, 242,0.65);
+    transition: .8s;
+}
+
+hr{
+    margin: 25px 0 0 0;
+    border: none;
+    border-top: 3px solid #ffa264;
+    height: 5px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+    text-align: justify;
+}
+
+.container{
+    height: 100vh;
+    width: 666px;
+    padding: 20px 0;
+
+}
+
+.container-image,
+.container-about,
+.container-link{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container-link input{
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 10px;
+    color: #ffa264;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 12px;
+    border: none;
+    margin: 0 8px;
+    box-shadow: 0px 0px 5px 1px #ffa2646d;
+}
+
+.container-link input:hover{
+   background-color: #ffa264;
+   color: rgb(0, 0, 0);
+}
+
+.about-us{
+    font-size: 30px;
+}
+
+.text{
+    color: #ffa264;
+    border-spacing: 5px;
+    text-decoration: none;
+}
+
+.img{
+    border: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 30px 10px #ffa2646d;
+}
+
+.about-universitet,
+.about-job,
+.about-character{
+    margin: 10px 0px;
+}
+
+.about-job b, a{
+    color: #ffa264;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+#stek{
+    padding: 10px;
+    color: #ff6500;
+    width: 220px;
+}
+
+.list-stek th{
+    transform: rotate(-70deg);
+    color: #ff6500;
+    padding: 20px 0;
+    width: 60px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid #ff6500;
+}
+
+.list-stek tr td{
+    padding: 2px;
+    border: 1px solid #ff6500;
+    margin: 15px;
+}
+
+.list-time li, 
+.list-education li{
+    list-style-type: disc;
+    color: #ffa264;
+    margin: 2px 35px;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+marquee{
+    color: #ffffff; 
+    font-size: 20px; 
+    font-weight: bolder; 
+    line-height: 150%; 
+    text-shadow: #000000 0px 1px 1px;
+}
